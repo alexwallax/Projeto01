@@ -1,0 +1,62 @@
+/***** Padrao *****/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin:0 auto;
+}
+/***** fim Padrao *****/
+
+
+/********** Cabeçalho ***********/
+.cabecalho{
+    height: 60px;
+    background: #ccc;
+}
+/********** fim Cabeçalho ***********/
+
+
+/********** corpo ***********/
+.conteudo{
+    height: 500px;
+    background: #eee;
+}
+/********** fim corpo ***********/
+
+
+/********** rodape ***********/
+.rodape{
+    height: 60px;
+    background: #ccc;
+}
+/********** fim rodape ***********/
+
+
+
+
+
+
+
+
+
+
+
+/****************inicio da responsividade parcial*****************/
+@media screen and (min-width: 100px) and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 601px) and (max-width: 5000px) {
+    
+}
+
+/****************fim da responsividade parcial*****************/
