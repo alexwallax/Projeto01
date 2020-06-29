@@ -12,7 +12,7 @@
         <script src="assets/js/bootstrap.js"></script>	
 	<link rel="icon" href="iconeX1.ico" type="imagens/x-icon" />
 	<!--Bootstrap-->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,12 +23,31 @@
 
     </head>
     <body>
+        
+        <div class="geral container">
+        
         <!-- cabeçalho -->    
         <header>
             <div class="cabecalho container">
                 <div class="row">
-                    CABEÇALHO
-                </div>
+                    <div id="cabecalho" class="col-sm-12">
+                    
+                        <div class="col-sm-6 logo">
+                            LOGO
+                        </div><!--Fim logo-->
+                        
+                        <div class="col-sm-6 menu">
+                            
+                            <ul>
+                                <li>MENU-1</li>
+                                <li>MENU-2</li>
+                                <li>MENU-3</li>
+                            </ul>
+                            
+                        </div><!--Fim menu-->
+                        
+                    </div><!--Fim cabecalho-->
+                </div><!--Fim row-->
             </div>
         </header>
         <!-- fim do cabeçalho -->   
@@ -36,24 +55,41 @@
         <!-- ------------------------------ --> 
         
         <!-- corpo -->
-        <section class="conteudo container">
-            <div class="row">
-                CONTEÚDO
-            </div>
+        <section>
+            <div class="conteudo container">
+                <div class="row">
+                    <div class="col-sm-12 conteudo_geral">
+                        <div class="col-sm-6 conteudo_1">
+                            CONTEUDO-1
+                        </div><!-- fim do conteudo01 -->
+
+                        <div class="col-sm-6 conteudo_2">
+                            CONTEUDO-2
+                        </div><!-- fim do conteudo02 --> 
+                        
+                    </div><!-- fim do conteudo_geral --> 
+                </div><!-- fim do row -->
+            </div><!-- fim do conteudo -->
         </section>
         <!-- fim do corpo -->
         
         <!-- ------------------------------ -->  
         
         <!-- rodape -->   
-        <footer class="rodape container">
-            <div class="row">
-                RODAPE
+        <footer>
+            <div class="rodape container">
+                <div class="row">
+                    <div class="col-sm-12 rodape_1">
+                        RODAPE
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- fim do rodape -->        
         
         <!-- ------------------------------ -->    
+        
+        </div><!--Fim geral-->
         
     </body>
 </html>

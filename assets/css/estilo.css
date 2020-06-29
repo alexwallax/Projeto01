@@ -22,6 +22,27 @@ html,body{
     height: 60px;
     background: #ccc;
 }
+
+.logo{
+    padding: 16px;
+    border: 1px solid blue;
+    height: 60px;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 16px;
+    border: 1px solid blue;
+    height: 60px;
+    float: right;
+}
+
+.menu {
+    float: right;
+}
+
+
 /********** fim Cabeçalho ***********/
 
 
@@ -29,7 +50,23 @@ html,body{
 .conteudo{
     height: 500px;
     background: #eee;
+    border: 1px solid green;
 }
+
+.conteudo_1{
+    margin-top: 5px;
+    float: left;
+    height: 490px;
+    background: white;
+}
+
+.conteudo_2{
+    margin-top: 5px;
+    float: right;
+    height: 490px;
+    background: #c3e6cb;
+}
+
 /********** fim corpo ***********/
 
 
@@ -37,6 +74,12 @@ html,body{
 .rodape{
     height: 60px;
     background: #ccc;
+}
+
+.rodape_1{
+    padding: 16px;
+    text-align: center;
+    border: 1px solid black;
 }
 /********** fim rodape ***********/
 
