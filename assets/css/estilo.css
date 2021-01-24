@@ -8,19 +8,23 @@
 html,body{
     height: 100%;
 }
-
+/*
 .container{
     width: 100%;
     max-width: 1024px;
     margin:0 auto;
+    height: 100%;
 }
+*/
 /***** fim Padrao *****/
 
 
 /********** Cabeçalho ***********/
 .cabecalho{
+    margin: 0px 120px 0px 120px;
     height: 60px;
-    background: #ccc;
+    background: black;
+    color: white;
 }
 
 .logo{
@@ -47,25 +51,68 @@ html,body{
 
 
 /********** corpo ***********/
-.conteudo{
-    height: 500px;
-    background: #eee;
-    border: 1px solid green;
+.container{
+    height: 100%;
+    background: pink;
+    border: 5px solid red;
 }
 
+.geral{
+    background: black;
+    height: 100%;
+}
+
+.conteudo_geral{
+    display: initial;
+    background: yellow;
+    border: 5px solid blue;
+}
+
+/*********** conteudo 1 ************/
 .conteudo_1{
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
     float: left;
-    height: 490px;
-    background: white;
+    height: 100%;
+    background: #E0E0F8;
+    border: 5px solid blueviolet;
 }
 
-.conteudo_2{
-    margin-top: 5px;
-    float: right;
-    height: 490px;
-    background: #c3e6cb;
+.Conteudo_h1{
+    margin-top: 50px; 
 }
+
+#entrar{
+    text-align: center;
+    margin: 100px 20% 0px 20%;
+}
+
+/*********** fim conteudo 1 ************/
+
+
+/*********** inicio conteudo 2 ************/
+.conteudo_2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    float: left;
+    height: 100%;
+    background: #E0E0F8;
+    border: 5px solid #007bff;
+}
+
+.conteudo_produtos{
+    border: 1px solid red;
+}
+
+.conteudo_id{
+    margin: 5px;  
+}
+
+/*********** fim conteudo 2 ************/
+
+
 
 /********** fim corpo ***********/
 
